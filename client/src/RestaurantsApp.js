@@ -7,13 +7,16 @@ const RestaurantsApp = () => {
 
   const getRestaurants = async () => {
     try {
-      let res = await axios.get("/restaurants")
+      let res = await axios.get("/api/restaurants")
       console.log(res)
     } catch (err) {
       console.log(err)
     }
   }
 
+  useEffect(()=>{
+    getRestaurants()
+  }, [])
 
   return(
     <div>
