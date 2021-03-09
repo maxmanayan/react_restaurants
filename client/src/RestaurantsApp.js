@@ -28,7 +28,7 @@ const RestaurantsApp = () => {
 
   return(
     <div>
-      <h1>Restaurants App Page</h1>
+      <h1>Restaurants</h1>
 			{renderPage()}
     </div>
   )

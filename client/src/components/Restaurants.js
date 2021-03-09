@@ -9,9 +9,10 @@ const Restaurants = (props) => {
 	}
 
 		return (
-			<>
-			{renderRestaurants()}
-			</>
+			<div style={{border: "1px solid black", margin: "2em"}}>
+        {renderRestaurants()}
+
+      </div>
 		)
 }
 
